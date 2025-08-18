@@ -1,11 +1,9 @@
-// import Counter from "./CounterApp/Counter.jsx";
-// import Form from "./Form/Form.jsx";
-import Form from "./Form Objects/Form.jsx"
+import Component1 from "./NameContext/Component1.jsx";
+
 function App() {
   return (
     <>
-      {/* <Counter /> */}
-      <Form />
+      <Component1 />
     </>
   );
 }
