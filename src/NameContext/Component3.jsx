@@ -1,16 +1,16 @@
+import { useContext } from "react";
+import { usernameContext } from "./Component1.jsx";
 import "./name.css";
 
 function Component3() {
-  const username = "Talha";
+  const username = useContext(usernameContext);
   return (
     <>
       <div className="box-1">
-        <b>Component 3</b>
-        <br />
-        Bye, {username}
+        <h3>Component 3</h3>
+        <p>Bye, {username}</p>
       </div>
     </>
   );
 }
-
 export default Component3;
