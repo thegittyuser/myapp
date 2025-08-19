@@ -1,9 +1,9 @@
-import Component1 from "./NameContext/Component1.jsx";
+import Theme from "./Theme/Theme.jsx"
 
 function App() {
   return (
     <>
-      <Component1 />
+      <Theme />
     </>
   );
 }

@@ -1,0 +1,61 @@
+/* classes for dark mode */
+
+.theme-box-dark {
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.theme-box-dark h3 {
+  font-size: 50px;
+}
+
+.theme-box-dark button {
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
+/* pseudo selector */
+.theme-box-dark button:hover {
+  cursor: pointer;
+}
+
+/* classes for light mode */
+
+.theme-box-light {
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.theme-box-light h3 {
+  font-size: 50px;
+}
+
+.theme-box-light button {
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
+/* pseudo selector */
+.theme-box-light button:hover {
+  cursor: pointer;
+}
