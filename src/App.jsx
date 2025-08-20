@@ -1,4 +1,4 @@
-import Theme from "./Theme/Theme.jsx"
+import Theme from "./Theme/Theme.jsx";
 
 function App() {
   return (

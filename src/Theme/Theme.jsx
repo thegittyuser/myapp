@@ -1,12 +1,24 @@
+import { createContext, useState } from "react";
+export const ThemeContext = createContext();
 import "./theme.css";
 
 function Theme() {
+  const [light, setLight] = useState(true);
+
+  const toggleTheme = () => {
+    setLight((prev) => !prev);
+  };
+
   return (
     <>
-      <div className="theme-box-dark">
-        <h3>Theme Context</h3>
-        <button>Toggle Theme</button>
-      </div>
+      <ThemeContext.Provider value={{ light, toggleTheme }}>
+        <div className={light ? "theme-light" : "theme-dark"}>
+          <h3>Theme Context</h3>
+          <button onClick={toggleTheme}>
+            Switch To {light ? "Light" : "Dark"} Mode
+          </button>
+        </div>
+      </ThemeContext.Provider>
     </>
   );
 }
