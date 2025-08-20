@@ -1,5 +1,4 @@
-/* classes for dark mode */
-
+/* Dark mode styles */
 .theme-box-dark {
   width: 100vw;
   height: 100vh;
@@ -11,6 +10,7 @@
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .theme-box-dark h3 {
@@ -20,28 +20,29 @@
 .theme-box-dark button {
   font-size: 30px;
   background-color: white;
+  color: black;
   border: none;
   border-radius: 50px;
   padding: 7px 20px;
 }
-/* pseudo selector */
+
 .theme-box-dark button:hover {
   cursor: pointer;
 }
 
-/* classes for light mode */
-
+/* Light mode styles */
 .theme-box-light {
   width: 100vw;
   height: 100vh;
   padding: 15px;
-  background-color: black;
-  color: white;
+  background-color: white
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .theme-box-light h3 {
@@ -50,12 +51,13 @@
 
 .theme-box-light button {
   font-size: 30px;
-  background-color: white;
+  background-color: black;
+  color: white;
   border: none;
   border-radius: 50px;
   padding: 7px 20px;
 }
-/* pseudo selector */
+
 .theme-box-light button:hover {
   cursor: pointer;
 }
