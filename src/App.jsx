@@ -1,9 +1,9 @@
-import Theme from "./Theme/Theme.jsx";
+import TextEffect from "./Effects/textEffect.jsx";
 
 function App() {
   return (
     <>
-      <Theme />
+      <TextEffect />
     </>
   );
 }
