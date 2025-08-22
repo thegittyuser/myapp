@@ -1,9 +1,9 @@
-import TextEffect from "./Effects/textEffect.jsx";
+import Timer from "./TimerApp/Timer.jsx";
 
 function App() {
   return (
     <>
-      <TextEffect />
+      <Timer />
     </>
   );
 }
