@@ -1,9 +1,10 @@
-import Timer from "./TimerApp/Timer.jsx";
+import Counter from "./Callback/Counter.jsx";
+
 
 function App() {
   return (
     <>
-      <Timer />
+      <Counter />
     </>
   );
 }
